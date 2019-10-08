@@ -1,0 +1,9 @@
+.section{
+    min-height: 100vh;
+}
+.section:nth-child(odd){
+    background: #FFF;
+}
+.section:nth-child(even){
+    background: #DEDEDE;
+}

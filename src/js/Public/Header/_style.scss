@@ -1,0 +1,48 @@
+.header{
+    background: #FFF;
+    position: relative;
+    .nav{
+       
+        .menu{
+            @include reset();
+            display: flex;            
+            position: fixed;
+            right: 50px;
+            top: 30px;
+            .menu-item{
+                @include reset();
+                border-right: 1px solid rgb(150, 82, 4);
+                list-style-type: none;
+                .menu-item-link{
+                    color: rgb(0, 0, 0);
+                    padding: 20px 10px;
+                    text-decoration: none;
+                    transition: all 1s;
+                }
+                .menu-item-link:hover{
+                    background: rgb(46, 1, 1);
+                    color: #FFF;
+                }
+            }
+        }
+    }
+    .main-info{
+        position: absolute;
+        top:30%;
+        text-align: center;
+        width: 100%;
+        .title{
+            color: rgb(0, 0, 0);
+            font-size: 32px;
+            font-weight: bold;
+            .title-light{
+                color: #AAA;
+                font-weight: normal;
+            }
+        }
+        .subline{
+            font-size: 10px;
+            text-transform: uppercase;
+        }    
+    }    
+}

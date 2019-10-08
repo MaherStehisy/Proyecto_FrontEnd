@@ -1,0 +1,31 @@
+.section-contact{
+    padding: center;
+    .form-contact{
+        border: 1px solid #DADADA;
+        border-radius: 0px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        padding: 50px; 
+        .row{
+            display: flex;
+            margin: 30px 0;
+            .label{
+                width: 20%;
+            }
+            .input{
+                font-size: 20px;
+                height: 30px;
+                line-height: 30px;
+                width: 80%;
+            }
+            .textarea{
+                font-size: 20px;
+                height: 100px;
+                line-height: 30px;
+                width: 80%;
+            }
+        }
+    }
+}
+
